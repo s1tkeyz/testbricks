@@ -62,7 +62,7 @@ class Test:
         json.dump(self.to_dict(), file, indent=4)
 
 
-# Functions
+# Global functions
 def get_test_from_file(_path):
     file_data = json.load(open(_path, 'r'))
     name = file_data['name']
