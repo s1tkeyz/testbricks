@@ -1,5 +1,5 @@
 # TestBricks Core (v1.0)
-# Author: s1tkeyz
+# Author: s1tkeyz (github.com/s1tkeyz)
 import json
 
 TB_CORE_VERSION = '1.0'

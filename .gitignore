@@ -2,3 +2,4 @@ venv
 api_test.py
 test.json
 .idea
+.gitignore
