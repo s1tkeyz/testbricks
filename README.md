@@ -28,9 +28,7 @@ this documentation is actual for both branches because methods and classes are s
 #### Classes description
 
 
-##### Question
-
-*Question (text, answer, value)* - Declares question structure.
+**Question (text, answer, value)** - Declares question structure.
 
 text (str) - text (formulation) of the question.
 
@@ -46,9 +44,7 @@ It has two methods:
 *to_list()* - returns a **list** from the question data.
 
 
-##### Test
-
-*Test (name, subject, author, questions, allotted_time)* - Declares test structure.
+**Test (name, subject, author, questions, allotted_time)** - Declares test structure.
 
 name (str) - test name.
 
@@ -68,7 +64,6 @@ It has three methods:
 *to_dict()* - returns **dictionary** built from the test data.
 
 *save_to_file(path)* - saves test data to file using JSON format (path (str) - path for saving).
-
 
 
 #### Global functions description
