@@ -25,8 +25,8 @@ this documentation is actual for both branches because methods and classes are s
 *cpp* branch is empty now.
 
 
-#### Classes description
 
+#### Classes description
 
 **Question (text, answer, value)** - Declares question structure.
 
@@ -42,6 +42,7 @@ It has two methods:
 *to_dict()* - returns a **dictionary** built from the question data.
 
 *to_list()* - returns a **list** from the question data.
+
 
 
 **Test (name, subject, author, questions, allotted_time)** - Declares test structure.
@@ -64,6 +65,8 @@ It has three methods:
 *to_dict()* - returns **dictionary** built from the test data.
 
 *save_to_file(path)* - saves test data to file using JSON format (path (str) - path for saving).
+
+
 
 
 #### Global functions description
